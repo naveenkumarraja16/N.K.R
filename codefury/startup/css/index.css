@@ -1,0 +1,74 @@
+
+
+#navigation{
+	background-color: black;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+#navigation a{
+	margin: 0vh 8vh 0vh 1vh;
+	border-radius: 3px;
+	color: white;
+	font-size: 24px;
+	font-family: serif;
+	text-decoration: none;
+}
+
+#navigation #active{
+
+	color: #1564bf;
+	cursor: none;
+}
+
+#user{
+	margin: 2vh 0vh 0vh 0vh;
+}
+
+#user span{
+	font-family: cursive;
+	margin:2vh 0vh 0vh 2vh;
+	color: #c7685a;
+	font-size: 20px;
+}
+
+#ideas{
+	margin: 5vh 0vh 0vh 0vh;
+}
+
+#ideas table th{
+	background-color: #085bbf;
+	padding: 10px 35px 10px 35px;
+	border-radius: 4px;
+	font-size: 22px;
+
+}
+
+
+#ideas table #sl{
+	background-color:#61edba;
+	border-radius: 3px;
+	padding: 5px;
+	border:none;
+
+}
+
+
+#ideas table  label{
+	cursor: pointer;
+}
+
+#ideas table #label{
+	cursor: pointer;
+	border:none;
+	background-color: lightgrey;
+	font-style: times;
+}
+
+#ideas table td{
+	border-radius: 3px;
+	padding: 5px 125px 15px 125px;
+	font-size: 18px;
+	background-color: #faca8c;
+}
+

@@ -1,0 +1,128 @@
+body{
+	background-color: currentColor;
+}
+
+#code{
+	color: white;
+}
+
+#code h1{
+	font-family: cursive;
+	color: #6024b5;
+}
+
+
+#box{
+	margin-top: -60vh;
+}
+
+#box h1{
+	color:white;
+	font-size: 35px;
+	margin: 10vh 0vh 0vh 30vh;
+	position: relative;
+  	animation-name: start_up;
+  	animation-duration: 2s;
+ 	animation-delay: 0.50s;
+
+}
+
+#box #about p{
+	color: #15a8d1;
+	 animation-name: values;
+  	animation-duration: 2s;
+ 	animation-delay: 0.50s;
+}
+
+#box #about{
+	color: white;
+	margin:3vh 105vh 5vh 5vh;
+}
+
+
+@keyframes start_up {
+  0%   {left:0px; top:-150px;}
+  100% { left:0px; top:0px;}
+}
+
+@keyframes values {
+   0%   {left:0px; top:-150px;}
+  100% { left:0px; top:0px;}
+}
+
+#login{
+	margin:20vh 10vh 0vh 120vh;
+	padding: 15px;
+	padding-bottom: 50px;
+	color: white;
+	border: 4px solid #4e0794;
+	border-radius: 5px;
+}
+
+#login h1{
+	color: #114bed;
+}
+#login #link{
+		margin:4vh 0vh 0vh 10vh;
+}
+#login a{
+	margin:4vh 0vh 0vh -8vh;
+	color: white;
+	text-decoration: none;
+}
+
+#login form input[type=text]{
+	margin:1vh 0vh 0vh 0vh;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	width: 320px;
+	align-content: center;
+	font-family: times;
+	font-size: 18px;
+}
+
+#login form input[type=submit]{
+	margin:5vh 0vh 0vh 0vh;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	width: 20%;
+	align-content: center;
+	font-family: times;
+	font-size: 19px;
+	background-color: #3ecfc0;
+	color: white;
+	cursor: pointer;
+}
+
+#login form input[type=reset]{
+	margin:5vh 0vh 0vh 0vh;
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	width: 20%;
+	align-content: center;
+	font-family: times;
+	font-size: 19px;
+	background-color: #f7343e;
+	color: white;
+	cursor: pointer;
+}
+
+#login form input[type=password]{
+	margin:1vh 0vh 0vh 0vh;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	width: 320px;
+	align-content: center;
+	font-family: times;
+	font-size: 18px;
+}
+
+#login form select{
+	padding: 3px 15px 3px 15px;
+	border-radius: 5px;
+	width: 69%;
+	align-content: center;
+	font-family: times;
+	font-size: 18px;
+}
+

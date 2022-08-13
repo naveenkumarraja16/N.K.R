@@ -1,0 +1,70 @@
+#navigation{
+	border:2px solid black;
+	padding: 20px 15px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+
+#navigation a{
+	margin: 0vh 8vh 0vh 2vh;
+	border-radius: 3px;
+	font-size: 24px;
+	font-family: serif;
+	text-decoration: none;
+	color: blue;
+}
+
+#navigation #active{
+	background-color: white;
+	color: #1564bf;
+	padding: 5px;
+	cursor: none;
+}
+
+#user{
+	margin:3vh 0vh 0vh 0vh;
+	font-size: 18px;
+}
+
+#user label{
+	font-size: 24px;
+	color: red;
+	font-family: cursive;
+}
+
+#start_ups{
+	margin:5vh 0vh 0vh 0vh;
+}
+
+
+#start_ups table th{
+	background-color: #b6bbbf;
+	padding: 10px 135px 10px 135px;
+	border-radius: 4px;
+	font-size: 22px;
+
+}
+
+
+#start_ups table  label{
+	cursor: pointer;
+}
+
+#start_ups table #label{
+	cursor: pointer;
+	border:2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	font-style: times;
+}
+
+
+
+#start_ups table #sl{
+	background-color:#fabf98;
+	border-radius: 3px;
+	padding: 5px;
+	border:none;
+
+}

@@ -1,0 +1,54 @@
+#idea_details span{
+	font-size: 18px; 
+	color: brown;
+}
+
+#idea_details label{
+	font-size: 22px; 
+	color: #d018f5;
+}
+
+#description{
+	margin: 2vh 40vh;
+}
+
+#description span{
+	font-size: 18px;
+}
+
+#description p{
+	padding: 15px 25px;
+	border-radius: 5px;
+	background-color: #c3c7c5;
+}
+
+
+#funds{
+	margin: 3vh 0vh 0vh 0vh;
+}
+
+#funds h1{
+	color: #fcaa58;
+}
+
+#funds h1 label{
+	color:#1099de;
+}
+
+
+#funds table th{
+	background-color: #e30938;
+	padding: 10px 135px 10px 135px;
+	border-radius: 4px;
+	font-size: 22px;
+	color: white;
+
+}
+
+#funds table td{
+	border:1px solid grey;
+		padding: 5px;
+	border-radius: 4px;
+	font-size: 22px;
+	color: violet;
+}

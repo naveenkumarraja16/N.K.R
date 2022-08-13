@@ -1,0 +1,62 @@
+#idea_details span{
+	font-size: 18px; 
+	color: brown;
+}
+
+#idea_details{
+	margin:3vh 0vh 0vh 0vh;
+}
+
+#idea_details label{
+	font-size: 22px; 
+	color: #d018f5;
+}
+
+#description{
+	margin: 2vh 40vh;
+}
+
+#description span{
+	font-size: 18px;
+}
+
+#description p{
+	padding: 15px 25px;
+	border-radius: 5px;
+	background-color: #c3c7c5;
+}
+
+
+#help form input[type=submit]{
+	margin:4vh 0vh 0vh 0vh;
+	padding: 1.4vh 5vh;
+	font-size: 20px;
+	font-family: serif;
+	border-radius: 5px;
+	background-color: #3c2ff5;
+	cursor: pointer;
+	color: white;
+
+}
+
+
+#comments{
+	margin:10vh 10vh 5vh 10vh;
+	padding: 5px;
+}
+
+#comments input[type=text]{
+	width:90%; 
+	padding: 5px;
+}
+
+#comments input[type=submit]{
+	margin:4vh 0vh 0vh 0vh;
+	padding: 0.6vh 2vh;
+	font-size: 18px;
+	font-family: serif;
+	border-radius: 5px;
+	background-color: #3c2ff5;
+	cursor: pointer;
+	color: white;
+}
